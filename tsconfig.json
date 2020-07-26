@@ -1,0 +1,18 @@
+{
+    "compilerOptions":
+    {
+        "module": "CommonJS",
+        "outDir": "dist",
+        "target": "es6",
+        "strict": true,
+        "plugins": [
+            { "transform": "./src/transformer/transformer.ts" }
+        ]
+    },
+    "include": [
+        "src/**/*", "app.ts"
+    ],
+    "exclude": [
+        "src/transformer"
+    ]
+}
